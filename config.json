@@ -4,6 +4,11 @@
 	"backendLocation": 	"http://78.46.152.176:8090",
 	"block":			"",
 	"title":			"InfoCompass",
+	"externalCss":		"http://place-making.org/icb/ic3.css",
+	
+	"activeIconColor":	"#f27020",
+	"plainIconColor":	"#979797",
+
 	"sharing": {
 		"twitter": {
 			"hashtag": "infocompass"

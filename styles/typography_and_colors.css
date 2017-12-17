@@ -1,0 +1,245 @@
+* {
+	-webkit-font-smoothing: 	antialiased;
+	-moz-osx-font-smoothing: 	grayscale;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+html{
+	font-family:		Roboto, sans-serif;
+	color:				#444;
+}
+
+textarea, 
+input, 
+button, 
+select { 
+	font-family: 		inherit; 
+	font-size: 			inherit; 
+}
+
+
+/* common  MAYBE outsource to extra css*/
+a {
+	outline:			none !important;
+	text-decoration:	none;
+	color:				inherit;
+	cursor:				pointer;
+}
+
+p {
+	line-height:		1.4em;
+}
+
+
+
+ul {
+	margin:				0;
+	padding:			0;
+	list-style:			none;
+}
+
+ul li {
+	margin:				0;
+	padding:			0;
+}
+
+input, 
+button, 
+button:active,
+button:hover {
+	display:			inline-block;
+	border:				none;	
+	font-size:			inherit;
+}
+
+button::-moz-focus-inner {
+    padding:0;
+    border:0;
+}
+
+
+button {
+	cursor:				pointer;
+	outline:			none !important;
+	background-color:	transparent;
+	padding:			0;
+}
+
+button.ic-touched {
+	background-color:	rgba(0,0,0,0.2) !important;
+}
+
+button::-moz-focus-inner {
+	border:				0;
+	padding:			0;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:			500;
+	line-height:			1.4em;
+}
+
+
+h1 {
+	font-size:				1.92rem;
+}
+
+
+
+textarea,
+form [contenteditable]{
+	display:				block;
+	box-sizing:				border-box;
+	width:					100%;
+	background-color:		#eee;
+	padding:				0.5rem 1rem;
+	margin:					0.5rem 0;
+	border:					0 none;
+	resize: 				none;
+	overflow:				hidden;
+	border-radius:			0;
+	font-size:				1rem;
+}
+
+input {
+	display:				block;
+	box-sizing:				border-box;
+	background-color:		#eee;
+	font-size:				1rem;
+	line-height:			2rem;
+	width:					100%;
+	padding:				0 1rem;
+	margin:					0.5rem 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active{
+	box-shadow:				0 0 0 1000rem #eeeeee inset;
+	color:					inherit;
+}
+
+
+
+input[type=text],
+input[type=password]{
+	width:					100%;
+	padding:				0.5rem 0.5rem 0.5rem 0.5rem;
+	box-sizing:				border-box;
+	border-radius:			0;
+	font-size:				1.2rem;
+	line-height:			1.5rem;
+	text-align:				left;
+	-webkit-appearance: 	none;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus {
+	outline: 				none;
+	box-shadow:				0 0 0 1px #000 inset;
+} 
+
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus{
+	box-shadow:				0 0 0 1000rem #eeeeee inset, 0 0 0 1px #000 inset !important;
+	color:					inherit;	
+}
+
+
+
+
+[disabled] {
+	opacity:				0.4 !important;
+}
+
+
+.nondescript {
+	opacity:				0.5;
+	font-size:				0.8rem;
+}
+
+.iblock {
+	display:				inline-block;
+}
+
+
+.ic-touch-fade {
+	transition-duration:	400ms;			
+	transition-property:	border, background-color;
+}
+
+
+
+/* flex */
+
+
+.flex-grow {
+	flex:					1 0 0;
+}
+
+/* aligns */
+
+.fleft {
+	float:					left;
+}
+
+.fright {
+	float:					right;
+}
+
+.tright {
+	text-align:				right;
+}
+
+.tleft {
+	text-align:				left;
+}
+
+.xjust{
+	display:				flex !important;
+	justify-content:		space-between;
+}
+
+.wsp {
+	white-space:			pre;
+}
+
+/* size */
+
+.small {
+	font-size:				0.9em;
+}
+
+
+
+/* weight */
+
+.light {
+	font-weight:			300;
+}
+
+.normal {
+	font-weight:			normal !important;
+}
+
+.heavy {
+	font-weight:			500;
+}
+
+
+
+.annotation {
+	font-size:				0.8em;
+	margin:					0.5rem 0;
+	color:					#888;
+}
+
+.pointer {
+	cursor:					pointer;
+}
+
+
+
