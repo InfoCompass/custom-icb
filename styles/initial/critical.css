@@ -1,3 +1,10 @@
+* {
+	-webkit-font-smoothing: 	antialiased;
+	-moz-osx-font-smoothing: 	grayscale;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
 /*loading screen */
 
 
@@ -129,7 +136,8 @@ ic-text-logo :last-child{
 /* icSpinner */
 
 
-ic-spinner {
+ic-spinner,
+.ic-spinner {
 	position:				relative;
 	display:				block;
 	width:					1em;
@@ -140,12 +148,14 @@ ic-spinner {
 	transition:				opacity 600ms ease-in;
 }
 
-ic-spinner.active{
+ic-spinner.active,
+.ic-spinner.active {
 	opacity:				1;
 }
 
 
-ic-spinner .foreground{
+ic-spinner .foreground,
+.ic-spinner .foreground {
 	position:				absolute;
 	top:					50%;
 	left:					50%;
@@ -163,7 +173,8 @@ ic-spinner .foreground{
 
 
 
-ic-spinner .background{	
+ic-spinner .background,
+.ic-spinner .background {	
 	position:				absolute;
 	top:					50%;
 	left:					50%;
@@ -178,7 +189,8 @@ ic-spinner .background{
 
 
 
-ic-spinner .background:before {
+ic-spinner .background:before,
+.ic-spinner .background:before {
 	content:				'';
 	display:				block;
 
@@ -196,7 +208,8 @@ ic-spinner .background:before {
 	z-index:				0;
 }
 
-ic-spinner .background:after {
+ic-spinner .background:after,
+.ic-spinner .background:after {
 	transform:				rotate(135deg);
 }
 
