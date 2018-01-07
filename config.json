@@ -5,7 +5,7 @@
 	"block":			"",
 	"title":			"InfoCompass",
 	"externalCss":		"http://place-making.org/icb/ic3.css",
-	
+	"languages":		["en", "de", "none", "fa", "ar", "ru", "sr", "sq", "fr", "ur", "tr"],
 	"activeIconColor":	"#f27020",
 	"plainIconColor":	"#979797",
 
