@@ -8,7 +8,17 @@
 	"languages":		["en", "de", "none", "fa", "ar", "ru", "sr", "sq", "fr", "ur", "tr"],
 	"activeIconColor":	"#f27020",
 	"plainIconColor":	"#979797",
-
+	"map":{
+		"center":				[52.518611, 13.408333],
+		"zoom":					10,
+		"minZoom":				11,
+		"maxZoom":				18,
+		"maxBounds":			[
+									[52.80, 13.80], 
+									[52.20, 13.00]
+								],
+		"maxClusterRadius": 	60
+	},
 	"sharing": {
 		"twitter": {
 			"hashtag": "infocompass"

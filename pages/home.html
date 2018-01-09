@@ -1,0 +1,76 @@
+<header class = "image-home ">
+	<h2 class = "col-3 bg-0" ng-bind-html = "('INTERFACE.CLAIM' | translate | trustAsHtml)"></h2>
+</header>	
+
+<article class = "search">
+	<ic-search 
+		ic-button-label = "ic.layout.mode.name != 'XS' ? ('INTERFACE.SEARCH' | translate) : true"
+	>
+	</ic-search>
+	<div class = "types">
+		<a 
+			ng-repeat 	= "type in ic.taxonomy.types"
+			ng-href		= "/list/t/{{type.name}}"
+			class 		= "icon left normal icon-type-{{type.name}} active"
+			ic-touch-me
+		>
+			{{'TYPES.%s' | fill : type.name | translate}}
+		</a>
+	</div>
+</article>
+
+<article ng-bind-html  = "('CONTENT.HOME' | translate | trustAsHtml)">
+</article>
+
+<section>
+	<div class = "tiles">
+
+
+		<a 
+			ng-repeat 	= "type in ic.taxonomy.types"
+			ng-href		= "/list/t/{{type.name}}"
+			class 		= "icon icon-type-{{type.name}} white bg-3"
+		>
+			{{'TYPES.%s' | fill : type.name | translate}}
+			<small></small>
+		</a>
+
+		<a
+			class		= "background-image  bottom image-tile_infopoints"
+			href		= "/list/s/infopoints"
+		>
+			<div>Infopoints</div>
+		</a>
+
+		<a 
+			class		= "background-image  bottom image-tile_children"
+			href		= "/list/c/children"
+		>
+			{{'CATEGORIES.CHILDREN' | translate}}
+		</a>
+
+		<a 
+			class		= "background-image  bottom image-tile_events_culture"
+			href		= "/list/t/event/c/culture"
+		>
+
+			{{'TYPES.EVENT' | translate}}, {{'CATEGORIES.CULTURE' | translate}}
+		</a>
+
+		<a 
+			class		= "background-image  bottom image-tile_women"
+			href		= "/list/c/women"
+		>
+			{{'CATEGORIES.WOMEN' | translate}}
+		</a>
+
+		<a 
+			class		= "background-image  bottom image-tile_work"
+			href		= "/list/c/work"
+		>
+			{{'CATEGORIES.WORK' | translate}}
+		</a>
+
+
+	</div>
+</section>

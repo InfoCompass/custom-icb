@@ -80,7 +80,7 @@ ic-loading-screen .progress span {
 	transition-duration:	600ms;
 	transition-timing-function:	ease-in;
 	opacity:				0.15;
-	transform:				scale(1.2);
+	transform:				scale(1.16);
 }
 
 ic-loading-screen .progress span.done {
@@ -112,23 +112,14 @@ ic-loading-screen .progress span:nth-child(5).done {
 }
 
 
-
-ic-text-logo{
-	font-family:			Roboto, sans-serif !important;
-	word-spacing: 			0 !important;
-}
-
-ic-text-logo :first-child{
-	font-weight:			500 !important;
-}
-
-ic-text-logo :last-child{
-	font-weight:			300 !important;
+ic-loading-screen .progress span:nth-child(6).done {
+	transition-delay:		600ms;
 }
 
 
-
-
+ic-loading-screen .progress span:nth-child(7).done {
+	transition-delay:		700ms;
+}
 
 
 
