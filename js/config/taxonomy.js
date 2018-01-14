@@ -18,7 +18,7 @@
 		{
 			name:		'information',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 
@@ -26,62 +26,62 @@
 		{
 			name:		'law',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 
 		},
 
 		{
 			name:		'support',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 		{
 			name:		'health',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 		{
 			name:		'work',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 		{
 			name:		'education',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 		{
 			name:		'leisure',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 		{
 			name:		'social',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 		{
 			name:		'culture',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 		{
 			name:		'living',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		},
 
 		{
 			name:		'city',
 			tags:		[],
-			colors:		[]
+			colors:		['#c25a1a']
 		}
 	]
 
@@ -105,6 +105,17 @@
 	]
 
 	exports.unsortedTags = [
+		'children',
+		'boys',
+		'girls',
+		'teenager',
+		'seniors',
+		'families',
+		'men',
+		'women',
+		'adults',
+		'lgbtiq',
+		'volunteers',
 		'accessible',
 		'free',
 		'multi_language',

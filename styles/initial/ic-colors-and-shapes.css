@@ -209,5 +209,6 @@
 	white-space: 				nowrap;
 	text-overflow:				ellipsis;
 	max-width:					100%;
+	background-color:			#99999a;
 }
 
