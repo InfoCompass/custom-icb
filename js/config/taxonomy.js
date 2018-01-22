@@ -1,27 +1,11 @@
 (function(exports){
 
-
-[ 'information',
-  'law',
-  'support',
-  'health',
-  'work',
-  'education',
-  'leisure',
-  'social',
-  'culture',
-  'living',
-  'city' ]
-
-
 	exports.categories = [
 		{
 			name:		'information',
 			tags:		[],
 			colors:		['#c25a1a']
 		},
-
-
 
 		{
 			name:		'law',
@@ -104,23 +88,27 @@
 		}
 	]
 
-	exports.unsortedTags = [
-		'children',
-		'boys',
-		'girls',
-		'teenager',
-		'seniors',
-		'families',
-		'men',
-		'women',
-		'adults',
-		'lgbtiq',
-		'volunteers',
-		'accessible',
-		'free',
-		'multi_language',
-		'public_toilet'
-	]
+	exports.tags = {
+		targetGroups:[
+			'children',
+			'boys',
+			'girls',
+			'teenager',
+			'seniors',
+			'families',
+			'men',
+			'women',
+			'adults',
+			'lgbtiq',
+			'volunteers',
+		],
+		misc: [
+			'accessible',
+			'free',
+			'multi_language',
+			'public_toilet'
+		]
+	}
 
 
 
