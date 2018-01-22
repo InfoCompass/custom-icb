@@ -2,7 +2,7 @@
 
 	exports.categories = [
 		{
-			name:		'information',
+			name:		'information_counseling',
 			tags:		[],
 			colors:		['#c25a1a']
 		},
