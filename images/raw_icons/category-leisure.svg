@@ -4,17 +4,17 @@
 	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
-	.st1{fill:#1E1E1E;}
+	.st1{fill:#000000;}
 </style>
 <rect id="XMLID_424_" class="st0" width="24" height="24"/>
-<path id="XMLID_320_" class="st1" d="M12,7c-2.8,0-5,2.2-5,5s2.2,5,5,5s5-2.2,5-5S14.8,7,12,7z M12,16c-2.2,0-4-1.8-4-4
-	c0-2.2,1.8-4,4-4s4,1.8,4,4C16,14.2,14.2,16,12,16z"/>
+<path id="XMLID_320_" class="st1" d="M12,7c-2.8,0-5,2.2-5,5s2.2,5,5,5s5-2.2,5-5S14.8,7,12,7z M12,16c-2.2,0-4-1.8-4-4s1.8-4,4-4
+	s4,1.8,4,4S14.2,16,12,16z"/>
 <rect id="XMLID_313_" x="1" y="11.5" class="st1" width="4" height="1"/>
 <rect id="XMLID_316_" x="19" y="11.5" class="st1" width="4" height="1"/>
 <rect id="XMLID_317_" x="11.5" y="1" class="st1" width="1" height="4"/>
 <rect id="XMLID_334_" x="11.5" y="19" class="st1" width="1" height="4"/>
-<rect id="XMLID_364_" x="3.6" y="17.9" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 22.6066 27.364)" class="st1" width="4" height="1"/>
-<rect id="XMLID_363_" x="16.4" y="5.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 1.3934 14.636)" class="st1" width="4" height="1"/>
-<rect id="XMLID_362_" x="5.1" y="3.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.3345 5.636)" class="st1" width="1" height="4"/>
-<rect id="XMLID_361_" x="17.9" y="16.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -7.6066 18.364)" class="st1" width="1" height="4"/>
+<rect id="XMLID_364_" x="3.6" y="17.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -11.2985 9.3492)" class="st1" width="4" height="1"/>
+<rect id="XMLID_363_" x="16.4" y="5.1" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 35.2982 -3.4508)" class="st1" width="4" height="1"/>
+<rect id="XMLID_362_" x="5.1" y="3.6" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 13.5195 5.672)" class="st1" width="1" height="4"/>
+<rect id="XMLID_361_" x="17.9" y="16.4" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 44.4211 18.3282)" class="st1" width="1" height="4"/>
 </svg>
