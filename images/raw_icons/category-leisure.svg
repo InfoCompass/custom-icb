@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
-    <title>topic/black_48/leisure</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="topic/black_48/leisure" fill="#000000">
-            <polygon id="Fill-2" points="23.5 13 25 13 25 7 23.5 7"></polygon>
-            <polygon id="Fill-3" points="23.5 41.5 25 41.5 25 35.5 23.5 35.5"></polygon>
-            <polygon id="Fill-4" points="15.7646 16.8252 11.5216 12.5822 12.5816 11.5212 16.8256 15.7642"></polygon>
-            <polygon id="Fill-5" points="35.917 36.9775 31.675 32.7355 32.735 31.6745 36.978 35.9165"></polygon>
-            <polygon id="Fill-6" points="7 25 13 25 13 23.5 7 23.5"></polygon>
-            <polygon id="Fill-7" points="35.5 25 41.5 25 41.5 23.5 35.5 23.5"></polygon>
-            <polygon id="Fill-8" points="12.582 36.9785 11.521 35.9175 15.765 31.6745 16.825 32.7355"></polygon>
-            <polygon id="Fill-9" points="32.7354 16.8252 31.6744 15.7642 35.9174 11.5212 36.9774 12.5822"></polygon>
-            <path d="M24.25,17.5 C20.528,17.5 17.5,20.528 17.5,24.25 C17.5,27.972 20.528,31 24.25,31 C27.972,31 31,27.972 31,24.25 C31,20.528 27.972,17.5 24.25,17.5 M24.25,32.5 C19.701,32.5 16,28.799 16,24.25 C16,19.701 19.701,16 24.25,16 C28.799,16 32.5,19.701 32.5,24.25 C32.5,28.799 28.799,32.5 24.25,32.5" id="Fill-10"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#1E1E1E;}
+</style>
+<rect id="XMLID_424_" class="st0" width="24" height="24"/>
+<path id="XMLID_320_" class="st1" d="M12,7c-2.8,0-5,2.2-5,5s2.2,5,5,5s5-2.2,5-5S14.8,7,12,7z M12,16c-2.2,0-4-1.8-4-4
+	c0-2.2,1.8-4,4-4s4,1.8,4,4C16,14.2,14.2,16,12,16z"/>
+<rect id="XMLID_313_" x="1" y="11.5" class="st1" width="4" height="1"/>
+<rect id="XMLID_316_" x="19" y="11.5" class="st1" width="4" height="1"/>
+<rect id="XMLID_317_" x="11.5" y="1" class="st1" width="1" height="4"/>
+<rect id="XMLID_334_" x="11.5" y="19" class="st1" width="1" height="4"/>
+<rect id="XMLID_364_" x="3.6" y="17.9" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 22.6066 27.364)" class="st1" width="4" height="1"/>
+<rect id="XMLID_363_" x="16.4" y="5.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 1.3934 14.636)" class="st1" width="4" height="1"/>
+<rect id="XMLID_362_" x="5.1" y="3.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.3345 5.636)" class="st1" width="1" height="4"/>
+<rect id="XMLID_361_" x="17.9" y="16.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -7.6066 18.364)" class="st1" width="1" height="4"/>
 </svg>

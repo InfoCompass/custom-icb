@@ -62,11 +62,11 @@
 			colors:		['#c25a1a']
 		},
 
-		{
-			name:		'city',
-			tags:		[],
-			colors:		['#c25a1a']
-		}
+		// {
+		// 	name:		'city',
+		// 	tags:		[],
+		// 	colors:		['#c25a1a']
+		// }
 	]
 
 	exports.types = [
