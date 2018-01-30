@@ -4,68 +4,68 @@
 		{
 			name:		'information_counseling',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		{
 			name:		'law',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 
 		},
 
 		{
 			name:		'support',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		{
 			name:		'health',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		{
 			name:		'work',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		{
 			name:		'education',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		{
 			name:		'leisure',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		{
 			name:		'social',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		{
 			name:		'culture',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		{
 			name:		'living',
 			tags:		[],
-			colors:		['#c25a1a']
+			colors:		['#f27020']
 		},
 
 		// {
 		// 	name:		'city',
 		// 	tags:		[],
-		// 	colors:		['#c25a1a']
+		// 	colors:		['#f27020']
 		// }
 	]
 

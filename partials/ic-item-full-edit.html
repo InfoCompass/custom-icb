@@ -55,6 +55,7 @@
 				{{'ITEMS.LAST_EDITOR' | translate}}  	{{icItem.lastEditor	}}	({{icItem.lastEditDate | icDate}})
 			</div>	
 		</div>
+
 	</div>
 
 
@@ -74,6 +75,11 @@
 		<!-- SUGGESTION -->
 		<h3 ng-if = "icItem.internal.new && !ic.user.can('edit_items')">{{'INTERFACE.SUGGEST_NEW_ITEM'| translate}}</h3>
 
+		<button
+			class 			= "icon icon-interface-down"
+			ic-scroll-to 	= "bottom"
+		>
+		</button>
 	</div>
 
 
@@ -94,6 +100,7 @@
 				ic-key					= "title"
 			></ic-item-property-edit>
 		</div>
+
 	</article>
 
 
@@ -415,6 +422,23 @@
 	</article>
 
 
+	<!-- hours -->
+	<article>
+		<div> <!-- spacer --> </div>
+		<div>
+			<h4> {{'ITEMS.HOURS' | translate}} ({{'LANGUAGES.%s' | fill: ic.site.currentLanguage | translate}})</h4>
+			
+			<ic-item-property-edit
+				ic-item					= "icItem"
+				ic-key					= "hours"
+				ic-type 				= "text"
+				ic-translatable			= "true"
+			></ic-item-property-edit>
+		</div>
+	</article>
+
+
+
 
 	<div><div> <!-- spacer --> </div><hr class  = "bg-2"/></div>
 
@@ -456,8 +480,21 @@
 
 
 	<article>
-		<div> <!-- spacer --></div>
+		<div>
+		</div>
+		<div class ="xjust">
+			<div>
+			</div>
+			<button
+				class 			= "icon icon-interface-up"
+				ic-scroll-to 	= "top"
+			>
+			</button>
+		</div>
+	</article>
 
+	<article>
+		<div> <!-- spacer --></div>
 
 		<!-- EDIT -->
 
@@ -481,6 +518,15 @@
 				ic-touch-me
 			>
 				{{"INTERFACE.ITEM_REVERT_ALL" | translate}}
+			</button>
+
+
+			<button
+				class 		= "active border-3 bg-0 padding"
+				ng-click 	= "validate() ? ic.overlays.open('popup', 'INTERFACE.VALIDATION_SUCESSFUL') : ic.overlays.open('popup', 'INTERFACE.VALIDATION_FAILED')"	 
+				ic-touch-me
+			>
+				{{"INTERFACE.ITEM_VALIDATE" | translate}}
 			</button>
 
 
