@@ -8,3 +8,73 @@ ic-header ic-main-menu  {
 }
 
 
+
+
+/* Neues Bild auf der Startseite */
+.image-home {
+background-image: url(http://www.place-making.org/icb/infopoint.jpg);	
+background-size: cover  !important;
+}
+
+/* Ãœberschrift */
+ic-page header h2 {
+ font-weight: 300;
+    margin-left: -4rem;
+  color: #222  !important;
+    max-width: 65rem;
+    text-indent: 0em;
+}
+
+ic-page article {
+	color: #333;
+}
+
+
+/* Logotype bei minimierten Header etwas kleiner darstellen und zentriert */
+ic-header .tools ic-logo-text span {
+	font-size: 1.5rem;
+	margin-top: .3rem;
+}
+
+ic-page h3 {
+	font-weight: 500;
+}
+
+ic-header ic-main-menu {
+	font-family: Roboto;
+}
+
+ic-page .tiles>* {
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: Roboto;
+}
+
+ic-taxonomy-filter h2 {
+	font-weight: 500;
+}
+
+/* Typen-Kacheln auf der Startseite in den 4 Farben eingerfÃ¤rbt */
+.tiles .icon-type-location {
+	background-color: #f27020;
+}
+
+.tiles .icon-type-event {
+	background-color: #7c51a2;
+}
+
+.tiles .icon-type-service {
+	background-color: #fec300;
+}
+
+.tiles .icon-type-information {
+	background-color: #62a7d5;
+}
+
+ic-page .tiles > :hover {
+    filter: brightness(1.1);
+    filter: opacity(.85);
+}
+
+
+
