@@ -1,4 +1,10 @@
-ic-page p {
+
+ic-page p,
+ic-page .tiles > *,
+ic-page a.boxed,
+ic-header ic-main-menu ul>li>ul>li,
+ic-header ic-main-menu  {
 	font-family:					inherit !important;
 }
+
 
