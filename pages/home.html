@@ -29,7 +29,7 @@
 		<a 
 			ng-repeat 	= "type in ic.taxonomy.types"
 			ng-href		= "/list/t/{{type.name}}"
-			class 		= "icon icon-type-{{type.name}} white bg-3"
+			class 		= "icon icon-type-{{type.name}} white ic-bg-type-{{type.name}}"
 		>
 			{{'TYPES.%s' | fill : type.name | translate}}
 			<small></small>
@@ -65,10 +65,31 @@
 		</a>
 
 		<a 
-			class		= "background-image  bottom image-tile_work"
-			href		= "/list/c/work"
+			class		= "background-image  bottom image-tile_lgbtiq"
+			href		= "/list/u/lgbtiq"
 		>
-			{{'CATEGORIES.WORK' | translate}}
+			{{'TYPES.SERVICE' | translate}}, {{'UNSORTED_TAGS.LGBTIQ' | translate}}
+		</a>
+
+		<a 
+			class		= "ic-bg-type-service bottom"
+			href		= "/list/u/volunteers"
+		>
+			{{'UNSORTED_TAGS.VOLUNTEERS' | translate}}
+		</a>
+
+		<a 
+			class		= "bg-3 white icon icon-interface-favourites"
+			href		= "/p/tiles/l/de/u/favourite"
+		>
+			{{'INTERFACE.FAVOURITES' | translate}}
+		</a>
+
+		<a 	
+			class		= "bg-3 white icon icon-interface-edit"
+			ng-click 	= "ic.site.activeItem = ic.itemStorage.newItem(); ic.site.editItem = true"
+		>
+			{{ic.user.can('edit_items') ? 'INTERFACE.SUGGEST_CREATE_ITEM' : 'INTERFACE.SUGGEST_NEW_ITEM' | translate }}
 		</a>
 
 
