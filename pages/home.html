@@ -89,7 +89,7 @@
 			class		= "bg-3 white icon icon-interface-edit"
 			ng-click 	= "ic.site.activeItem = ic.itemStorage.newItem(); ic.site.editItem = true"
 		>
-			{{ic.user.can('edit_items') ? 'INTERFACE.SUGGEST_CREATE_ITEM' : 'INTERFACE.SUGGEST_NEW_ITEM' | translate }}
+			{{ic.user.can('edit_items') ? 'INTERFACE.CREATE_NEW_ITEM' : 'INTERFACE.SUGGEST_NEW_ITEM' | translate }}
 		</a>
 
 
