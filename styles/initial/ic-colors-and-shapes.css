@@ -100,6 +100,11 @@
 
 
 
+.highlight-links a{
+	color:						#f27020 !important;
+}
+
+
 
 .padding {
 	padding:					1rem;

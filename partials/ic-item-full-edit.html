@@ -93,6 +93,7 @@
 		<div>
 			<h4> {{'ITEMS.TITLE' | translate}}</h4>
 
+			<ic-help ic-message = "ITEMS.TITLE_HELP"></ic-help>
 
 			<ic-item-property-edit
 				ic-item					= "icItem"
@@ -150,6 +151,8 @@
 		<div>
 			<h4> {{'ITEMS.DESCRIPTION' | translate}} ({{'LANGUAGES.%s' | fill: ic.site.currentLanguage | translate}})</h4>
 			
+			<ic-help ic-message = "ITEMS.DESCRIPTION_HELP"></ic-help>
+
 			<ic-item-property-edit
 				ic-item					= "icItem"
 				ic-key					= "description"
@@ -237,6 +240,8 @@
 		<div>
 			<h4> {{'ITEMS.TAGS_TARGET_GROUPS' | translate}}</h4>
 
+			<ic-help ic-message = "ITEMS.TARGET_GROUPS_HELP"></ic-help>
+
 			<ic-item-property-edit
 				ic-item						= "icItem"
 				ic-type						= "array"
@@ -299,6 +304,9 @@
 		<div> <!-- spacer --> </div>
 		<div>
 			<h4> {{'ITEMS.ADDRESS' | translate}}</h4>
+
+			<ic-help ic-message = "ITEMS.ADDRESS_HELP"></ic-help>
+
 
 			<ic-item-property-edit
 				ic-type 				= "string"
@@ -365,6 +373,8 @@
 		<div>
 			<h4> {{'ITEMS.%s' | fill : key | translate}}</h4>
 
+			<ic-help ic-message = "ITEMS.EMAIL_HELP"></ic-help>
+
 			<ic-item-property-edit
 				ic-type 				= "string"
 				ic-key					= "{{key}}"
@@ -428,6 +438,9 @@
 		<div>
 			<h4> {{'ITEMS.HOURS' | translate}} ({{'LANGUAGES.%s' | fill: ic.site.currentLanguage | translate}})</h4>
 			
+			<ic-help ic-message = "ITEMS.HOURS_HELP"></ic-help>
+			
+
 			<ic-item-property-edit
 				ic-item					= "icItem"
 				ic-key					= "hours"
@@ -469,6 +482,10 @@
 		<div> <!-- spacer --> </div>
 		<div>
 			<h4> {{'ITEMS.EDITING_NOTE' | translate}}</h4>
+
+			<ic-help ic-message = "ITEMS.EDITING_NOTE_HELP"></ic-help>
+
+
 
 			<ic-item-property-edit
 				ic-item						= "icItem"

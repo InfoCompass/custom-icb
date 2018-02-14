@@ -106,7 +106,8 @@
 			'accessible',
 			'free',
 			'multi_language',
-			'public_toilet'
+			'residence_status_irrelevant',
+			'volunteers_needed'
 		]
 	}
 

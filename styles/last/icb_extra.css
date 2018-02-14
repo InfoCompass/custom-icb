@@ -20,7 +20,7 @@ background-size: cover  !important;
 ic-page header h2 {
  font-weight: 300;
     margin-left: -4rem;
-  color: #222  !important;
+  	color: #222  !important;
     max-width: 65rem;
     text-indent: 0em;
 }
