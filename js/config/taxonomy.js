@@ -106,7 +106,7 @@
 			'accessible',
 			'free',
 			'multi_language',
-			'residence_status_irrelevant',
+			'no_status',
 			'volunteers_needed'
 		]
 	}
