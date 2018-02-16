@@ -9,13 +9,6 @@ ic-header ic-main-menu  {
 
 
 
-
-/* Neues Bild auf der Startseite */
-.image-home {
-background-image: url(/images/large/infopoint.jpg);	
-background-size: cover  !important;
-}
-
 /* Ãœberschrift */
 ic-page header h2 {
  font-weight: 300;
