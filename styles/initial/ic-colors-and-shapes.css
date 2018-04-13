@@ -148,7 +148,8 @@
 }
 
 .ic-touched {
-	background-color:	rgba(0,0,0,0.05) !important;
+	filter: 			brightness(75%);
+	transform: 			scale(0.95);
 }
 
 
