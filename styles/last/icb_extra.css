@@ -64,10 +64,4 @@ ic-taxonomy-filter h2 {
 	background-color: #62a7d5;
 }
 
-ic-page .tiles > :hover {
-    filter: brightness(1.1);
-    filter: opacity(.85);
-}
-
-
 

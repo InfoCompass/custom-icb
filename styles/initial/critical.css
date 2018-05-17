@@ -160,6 +160,7 @@ ic-spinner .foreground,
 	background-position:	50% 50%;
 	background-repeat:		no-repeat;
 	z-index:				5;
+	animation:				none;
 }
 
 
