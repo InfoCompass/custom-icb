@@ -74,10 +74,10 @@
 			name:		'location',
 			colors:		['#f27020', '#f27020'],
 		},
-		{
-			name:		'event',
-			colors:		['#7c51a2', '#7c51a2'],
-		},
+		// {
+		// 	name:		'event',
+		// 	colors:		['#7c51a2', '#7c51a2'],
+		// },
 		{
 			name:		'service',
 			colors:		['#fec300', '#fec300'],
