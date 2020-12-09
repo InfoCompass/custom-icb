@@ -1,0 +1,43 @@
+
+.ic-logo-text,
+ic-logo-text {
+	font-family:			Roboto,sans-serif!important;
+	word-spacing:			0!important
+}
+.ic-logo-text :first-child,
+ic-logo-text :first-child {
+	font-weight:			500!important;
+	display:				inline-block!important
+}
+.ic-logo-text :last-child,
+ic-logo-text :last-child {
+	font-weight:			300!important;
+	display:				inline-block!important
+}
+ic-logo-full,
+ic-logo-line,
+ic-logo-print {
+	display:				inline-flex;
+	align-items:			center;
+ 	box-sizing:				border-box;
+	height:					1em
+}
+ic-logo-full>*,
+ic-logo-line>*,
+ic-logo-print>* {
+	flex:					0 0 auto;
+	font-size:				0.5em;
+	line-height:			1em
+}
+ic-logo-full>img,
+ic-logo-line>img,
+ic-logo-print>img {
+	flex:					0 0 auto;
+	height:					1em;
+	width:					1em;
+	font-size:				0.75em;
+	margin-right:			0.2em
+}
+
+
+
