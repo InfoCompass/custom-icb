@@ -22,10 +22,11 @@
 <article ng-bind-html  = "('CONTENT.HOME' | translate | trustAsHtml)">
 </article>
 
+
 <section>
-	<div class = "tiles">
+	<ic-tiles class = "tiles">
 
-
+<!-- 
 		<a 
 			ng-repeat 	= "type in ic.taxonomy.types"
 			ng-href		= "/list/t/{{type.name}}"
@@ -91,7 +92,8 @@
 		>
 			{{ic.user.can('edit_items') ? 'INTERFACE.CREATE_NEW_ITEM' : 'INTERFACE.SUGGEST_NEW_ITEM' | translate }}
 		</a>
+ -->
 
-
-	</div>
+	</ic-tiles>
+	
 </section>
