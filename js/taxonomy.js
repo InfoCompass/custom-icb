@@ -68,6 +68,13 @@
 			colors:		['#f27020']
 		},
 
+		{
+			name:		'unknown',
+			tags:		[],
+			colors:		['#f27020']
+		},
+
+
 		// {
 		// 	name:		'city',
 		// 	tags:		[],
