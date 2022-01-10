@@ -24,6 +24,11 @@ ic-loading-screen{
 	box-shadow:				0 0 2rem rgba(0,0,0,0.2);
 }
 
+ic-loading-screen > * {
+	margin: 				0 !important; 
+	padding: 				0 !important;
+}
+
 ic-loading-screen.ic-hide {
 	transition-property:	transform;
 	transform:				translateX(-100%);
@@ -42,8 +47,8 @@ ic-loading-screen h1 {
 
 ic-loading-screen .spinner {
 	margin:					0 auto;
-	margin-top:				2em;
-	margin-bottom:			0.5em;
+	margin-top:				2em !important;
+	margin-bottom:			0.5em !important;
 	width:					100%;
 	font-size:				3em;
 }
@@ -57,7 +62,7 @@ ic-loading-screen .error {
 	color:					red;
 	width:					95%;
 	max-width:				40rem;
-	margin:					1rem auto;
+	margin:					1rem auto !important;
 }
 
 
@@ -65,7 +70,7 @@ ic-loading-screen .error {
 ic-loading-screen .progress {
 	display:				block;
 	text-align:				center;
-	margin:					4rem 0;
+	margin:					4rem 0 !important;
 }
 
 
