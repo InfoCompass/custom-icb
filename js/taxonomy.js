@@ -4,7 +4,7 @@
 		{
 			name:		'information_counseling',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#f5548a']
 		},
 
 		{
@@ -17,31 +17,31 @@
 		{
 			name:		'support',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#6b4fad']
 		},
 
 		{
 			name:		'health',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#62aa54']
 		},
 
 		{
 			name:		'work',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#008ddf']
 		},
 
 		{
 			name:		'education',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#9d7be2']
 		},
 
 		{
 			name:		'leisure',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#4fa8e0']
 		},
 
 		{
@@ -53,19 +53,19 @@
 		{
 			name:		'culture',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#db3643']
 		},
 
 		{
 			name:		'living',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#faa820']
 		},
 
 		{
 			name:		'parents_children',
 			tags:		[],
-			colors:		['#f27020']
+			colors:		['#fc8023']
 		},
 
 		{
